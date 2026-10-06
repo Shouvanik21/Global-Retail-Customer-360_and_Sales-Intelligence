@@ -11,12 +11,16 @@ __pycache__/
 venv/
 env/
 
+
 # ======================================
 # ENVIRONMENT / SECRETS
 # ======================================
 
 .env
 *.env
+*.key
+*.pem
+
 
 # ======================================
 # JUPYTER
@@ -24,19 +28,25 @@ env/
 
 .ipynb_checkpoints/
 
+
 # ======================================
 # POWER BI
 # ======================================
 
+# Keep Power BI files locally, but don't upload them
 *.pbix
 *.pbit
+
 
 # ======================================
 # RAW DATA
 # ======================================
 
+# Don't upload raw Excel datasets
 data/raw/*.xlsx
 data/raw/*.xls
+data/raw/*.csv
+
 
 # ======================================
 # TEMPORARY FILES
@@ -46,11 +56,13 @@ data/raw/*.xls
 *.temp
 *.log
 
+
 # ======================================
 # VS CODE
 # ======================================
 
 .vscode/
+
 
 # ======================================
 # OS FILES
