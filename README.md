@@ -1008,7 +1008,7 @@ The dashboard also provides visibility into high-performing products and their c
 
 ## 📸 Dashboard Preview
 
-![Global 360 Power BI Dashboard](/Global-Retail-Customer-360_and_Sales-Intelligence/dashboard/global_360_dashboard.png)
+![Image](/Global-Retail-Customer-360_and_Sales-Intelligence/dashboard/global_360_dashboard.png)
 
 ---
 
